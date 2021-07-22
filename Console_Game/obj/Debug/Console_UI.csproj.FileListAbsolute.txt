@@ -1,0 +1,7 @@
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\bin\Debug\Console_Game.exe.config
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\bin\Debug\Console_Game.exe
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\bin\Debug\Console_Game.pdb
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\obj\Debug\Console_UI.csproj.AssemblyReference.cache
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\obj\Debug\Console_UI.csproj.CoreCompileInputs.cache
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\obj\Debug\Console_Game.exe
+C:\Users\oneda\source\repos\Zener_Cards\Console_Game\obj\Debug\Console_Game.pdb
