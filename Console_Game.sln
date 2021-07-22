@@ -5,11 +5,7 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console_UI", "Console_Game\Console_UI.csproj", "{8142377B-D4E9-474B-A0D6-E18ACC370A27}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zener_Cards", "Zener_Cards", "{489D3DAE-A118-486E-8293-240C97705E37}"
-	ProjectSection(SolutionItems) = preProject
-		Deck_Object.cs = Deck_Object.cs
-		Player_Object.cs = Player_Object.cs
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class_Library", "Class_Library\Class_Library.csproj", "{957D1499-6BDC-46E9-ABB8-DBE80F3C9217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +17,10 @@ Global
 		{8142377B-D4E9-474B-A0D6-E18ACC370A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8142377B-D4E9-474B-A0D6-E18ACC370A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8142377B-D4E9-474B-A0D6-E18ACC370A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957D1499-6BDC-46E9-ABB8-DBE80F3C9217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957D1499-6BDC-46E9-ABB8-DBE80F3C9217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957D1499-6BDC-46E9-ABB8-DBE80F3C9217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957D1499-6BDC-46E9-ABB8-DBE80F3C9217}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

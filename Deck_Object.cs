@@ -1,4 +1,5 @@
 ﻿using System;
+using Console_Game;
 
 namespace Console_Game
 {
@@ -6,8 +7,7 @@ namespace Console_Game
 	public static class DeckObject
 {
 		//properties
-		public int amountOfCards { get; set; };    
-
+		public int amountOfCards { get; set; };   
 		public int[] deck;   //array to hold the random id's for the cards
 
 
@@ -15,9 +15,9 @@ namespace Console_Game
 		//constructors
 		public DeckObject();
 
-		public DeckObject(int amountOfCards, int[] deck) 
-		{   
-			//amountOfCards = numberOfCards;
+		public DeckObject(int amountOfCards, int[] deck)   //we pass in the num cards and an empty deck array
+		{
+			deck[amountOfCards];
 
 			//we fill the indexes in the deck with a random number from 1 to 4
 			for (int i = 0; i < amountOfCards; ++i;)
@@ -28,13 +28,8 @@ namespace Console_Game
 
 
 		// methods
-		public int[] Randomizor()
-
-
-
-		public void ShuffleDeck() {
-
-
+		public static FlipCard()
+		
 	}
 
 

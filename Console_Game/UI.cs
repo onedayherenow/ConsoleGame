@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Console_Game;
 
 namespace Console_Game
 {
     class UI
     {
         public PlayerOne Player1 = new PlayerOne();
-        public Playertwo Player2 = new PlayerTwo();
+        public PlayerTwo Player2 = new PlayerTwo();
 
 
 
@@ -52,12 +53,12 @@ namespace Console_Game
 
         public void Game()
         {
-            bool continueDevMenu = true;
-            while (continueDevMenu)
+            bool playingGame = true;
+            while (playingGame)
             {
                 Console.Clear();
-                Console.WriteLine("Hello and welcome to the game \n +"
-                        "Please enter name of Player One");
+                Console.WriteLine("Hello and welcome to the game \n" +
+                        "Please enter name of Player One") ;
 
                 string playerOneName = Console.ReadLine();
 
@@ -70,7 +71,11 @@ namespace Console_Game
 
                 Player2.name = playerTwoName;
 
+				Console.WriteLine("How many cards will we have in our deck today");
 
+                string numberChoice = Console.ReadLine();
+
+                public DeckObject gameDeck = new DeckObject(numberChoice, DeckObject.deck[]);
 
 
             }
