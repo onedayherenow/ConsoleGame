@@ -7,8 +7,8 @@ namespace Console_Game
 	public class DeckObject
 	{
 		//properties
-		public static int amountOfCards { get; set; };
-		public int[] deck;   //array to hold the random id's for the cards
+		public int AmountOfCards { get; set; }
+		public int[] Deck;   //array to hold the random id's for the cards
 
 
 
@@ -17,6 +17,18 @@ namespace Console_Game
 
 		public DeckObject(int amountOfCards, int[] deck)   //we pass in the num cards and an empty deck array
 		{
+			AmountOfCards = amountOfCards;
+			Deck = deck;
+            
+        }
+
+
+		// methods
+		public void FlipCard() { }
+		// moved here
+		public int [] CreateDeck() 
+		{
+			DeckObject deck = new DeckObject()
 			deck[amountOfCards];
 
 			//we fill the indexes in the deck with a random number from 1 to 4
@@ -25,11 +37,6 @@ namespace Console_Game
 
 			return deck[];
 		}
-
-
-		// methods
-		public void FlipCard() { }
-
 
 	}
 }

@@ -6,48 +6,50 @@ namespace Console_Game
 
 {
 
-		public class PlayerOne
-{
-	//properties
-	public string name;
-	public double percentageScore;
-	public static int score;
-
-	//constructors
-	PlayerOne();
-
-	PlayerOne(string Name)
+	public class PlayerOne
 	{
-		name = Name;
-	}
+		//properties
+		public string name;
+		public double percentageScore;
+		public static int score;
 
-	//methods
+		//constructors
+		PlayerOne() { }
 
-	public double PercentageMaker(int score, int amountOfCards) {
-			
-			
-			double percentage = (Convert.ToDouble(score) / Convert.ToDouble(DeckObject.amountOfCards)
+		PlayerOne(string Name)
+		{
+			name = Name;
+		}
+
+		//methods
+
+		public double PercentageMaker(int score, int amountOfCards)
+		{
+
+
+			double percentage = (Convert.ToDouble(score) / Convert.ToDouble(DeckObject.amountOfCards));
 			return percentage;
 		}
 
 
 
-public class PlayerTwo
-{
-	//properties
-	public string name;
-	public double percentageScore = (Convert.ToDouble(score) / DeckObject.amountOfCards);
-	public int score;
+		public class PlayerTwo
+		{
+			//properties
+			public string name;
+			public double percentageScore = PercentageMaker();
+			public static int score;
 
-	//constructors
-	PlayerOne();
+			//constructors
+			PlayerTwo() { }
 
-	PlayerOne(string Name)
-	{
-		name = Name;
+			PlayerTwo(string Name)
+			{
+				name = Name;
+			}
+
+			//methods
+		}
+
 	}
-
-	//methods
-}
-
 }
